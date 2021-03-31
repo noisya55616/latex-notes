@@ -1,0 +1,131 @@
+\contentsline {section}{\numberline {1}Optics}{5}{}%
+\contentsline {subsection}{\numberline {1.1}Lensmaker's formula}{5}{}%
+\contentsline {subsection}{\numberline {1.2}Lens types}{5}{}%
+\contentsline {subsection}{\numberline {1.3}Sign convention}{5}{}%
+\contentsline {subsection}{\numberline {1.4}Combining lenses}{5}{}%
+\contentsline {subsubsection}{\numberline {1.4.1}Working with multiple lenses}{5}{}%
+\contentsline {subsubsection}{\numberline {1.4.2}As $d\DOTSB \relbar \joinrel \rightarrow 0$}{5}{}%
+\contentsline {subsection}{\numberline {1.5}Magnification}{6}{}%
+\contentsline {subsection}{\numberline {1.6}Polarization}{6}{}%
+\contentsline {subsubsection}{\numberline {1.6.1}Malus' law}{6}{}%
+\contentsline {subsection}{\numberline {1.7}Double slit interference}{6}{}%
+\contentsline {subsubsection}{\numberline {1.7.1}Bright fringes}{6}{}%
+\contentsline {subsubsection}{\numberline {1.7.2}Bright fringes}{6}{}%
+\contentsline {subsection}{\numberline {1.8}Single slit interference (diffraction)}{7}{}%
+\contentsline {subsubsection}{\numberline {1.8.1}Bright fringes}{7}{}%
+\contentsline {subsubsection}{\numberline {1.8.2}Dark fringes}{7}{}%
+\contentsline {subsection}{\numberline {1.9}Thin-film interference}{8}{}%
+\contentsline {section}{\numberline {2}Electricity}{9}{}%
+\contentsline {subsection}{\numberline {2.1}Current}{9}{}%
+\contentsline {subsection}{\numberline {2.2}Resistors}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Resistivity}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Resistance of a conductor}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Power dissipated by a resistor}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.4}Resistors in parallel}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.5}Resistors in series}{10}{}%
+\contentsline {subsection}{\numberline {2.3}Capacitors}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Capacitance}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Energy stored in a capacitor}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Dielectric materials}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.4}Capacitors in parallel}{11}{}%
+\contentsline {subsubsection}{\numberline {2.3.5}Capacitors in series}{11}{}%
+\contentsline {subsubsection}{\numberline {2.3.6}Discharging a capacitor}{11}{}%
+\contentsline {subsubsection}{\numberline {2.3.7}Charging a capacitor}{12}{}%
+\contentsline {subsection}{\numberline {2.4}Inductors}{12}{}%
+\contentsline {section}{\numberline {3}Magnetism}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Lorentz force law}{13}{}%
+\contentsline {subsection}{\numberline {3.2}Magnetic flux}{13}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Faraday's law}{13}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Lenz's law}{13}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Electromotive force in a coil}{13}{}%
+\contentsline {subsection}{\numberline {3.3}Magnetic induction from a current in a wire}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Magnetic field at the centre of a coil}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Magnetic field on the axis of a solenoid}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}Magnetic field from a straight wire}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.4}Magnetic field from an infinitely long wire}{14}{}%
+\contentsline {subsection}{\numberline {3.4}Cyclotron concepts}{14}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}Radius of motion of a particle in a magnetic field}{14}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Angular frequency}{14}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Cyclotron frequency}{14}{}%
+\contentsline {section}{\numberline {4}Special relativity}{15}{}%
+\contentsline {subsection}{\numberline {4.1}Rapidity}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Hyperbolic identities}{15}{}%
+\contentsline {subsection}{\numberline {4.2}Length contraction}{15}{}%
+\contentsline {subsection}{\numberline {4.3}Time dilation}{15}{}%
+\contentsline {subsection}{\numberline {4.4}Mass dilation}{15}{}%
+\contentsline {subsection}{\numberline {4.5}Velocity addition}{15}{}%
+\contentsline {subsection}{\numberline {4.6}Energy}{16}{}%
+\contentsline {subsubsection}{\numberline {4.6.1}Energy at low speeds}{16}{}%
+\contentsline {subsubsection}{\numberline {4.6.2}Energy in a different frame}{16}{}%
+\contentsline {subsection}{\numberline {4.7}Momentum}{16}{}%
+\contentsline {subsubsection}{\numberline {4.7.1}Momentum at low speeds}{16}{}%
+\contentsline {subsubsection}{\numberline {4.7.2}Momentum in a different frame}{16}{}%
+\contentsline {subsection}{\numberline {4.8}Special relativity but with Lorentz factors}{17}{}%
+\contentsline {subsubsection}{\numberline {4.8.1}The Lorentz factor}{17}{}%
+\contentsline {subsubsection}{\numberline {4.8.2}Energy}{17}{}%
+\contentsline {subsubsection}{\numberline {4.8.3}Momentum}{17}{}%
+\contentsline {subsubsection}{\numberline {4.8.4}Length contraction}{17}{}%
+\contentsline {subsubsection}{\numberline {4.8.5}Time dilation}{17}{}%
+\contentsline {section}{\numberline {5}Quantum mechanics}{18}{}%
+\contentsline {subsection}{\numberline {5.1}de Broglie wavelength}{18}{}%
+\contentsline {subsection}{\numberline {5.2}Photoelectric effect}{18}{}%
+\contentsline {subsection}{\numberline {5.3}Electron states}{18}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Rydberg constant}{18}{}%
+\contentsline {section}{\numberline {6}Thermodynamics}{19}{}%
+\contentsline {subsection}{\numberline {6.1}Linear thermal expansion}{19}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Areal and volumetric expansion}{19}{}%
+\contentsline {subsection}{\numberline {6.2}Heat transfer}{19}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Slabs in series}{19}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Slabs in parallel}{20}{}%
+\contentsline {subsection}{\numberline {6.3}Newton's law of cooling for convection}{20}{}%
+\contentsline {subsection}{\numberline {6.4}Stefan-Boltzmann formula for radiation}{20}{}%
+\contentsline {subsection}{\numberline {6.5}Wien's law for blackbody radiation}{20}{}%
+\contentsline {subsection}{\numberline {6.6}Gas properties}{21}{}%
+\contentsline {subsubsection}{\numberline {6.6.1}Ideal gas law}{21}{}%
+\contentsline {subsubsection}{\numberline {6.6.2}Gas density}{21}{}%
+\contentsline {subsubsection}{\numberline {6.6.3}Gas velocities}{21}{}%
+\contentsline {subsection}{\numberline {6.7}Internal energy}{21}{}%
+\contentsline {subsubsection}{\numberline {6.7.1}Specific heats}{22}{}%
+\contentsline {subsection}{\numberline {6.8}First law of thermodynamics}{22}{}%
+\contentsline {subsection}{\numberline {6.9}Entropy}{22}{}%
+\contentsline {subsection}{\numberline {6.10}Thermodynamic processes}{23}{}%
+\contentsline {subsubsection}{\numberline {6.10.1}Isobaric}{23}{}%
+\contentsline {subsubsection}{\numberline {6.10.2}Isochoric}{23}{}%
+\contentsline {subsubsection}{\numberline {6.10.3}Isothermal}{23}{}%
+\contentsline {subsubsection}{\numberline {6.10.4}Adiabatic}{23}{}%
+\contentsline {subsection}{\numberline {6.11}Heat engines}{24}{}%
+\contentsline {subsubsection}{\numberline {6.11.1}Thermodynamic efficiency}{24}{}%
+\contentsline {subsubsection}{\numberline {6.11.2}Carnot cycle}{24}{}%
+\contentsline {subsubsection}{\numberline {6.11.3}Sterling cycle}{24}{}%
+\contentsline {subsubsection}{\numberline {6.11.4}Otto cycle}{24}{}%
+\contentsline {section}{\numberline {7}Material properties}{25}{}%
+\contentsline {subsection}{\numberline {7.1}Stress and strain}{25}{}%
+\contentsline {subsection}{\numberline {7.2}Young's modulus}{25}{}%
+\contentsline {subsection}{\numberline {7.3}Shear modulus}{25}{}%
+\contentsline {subsection}{\numberline {7.4}Bulk modulus}{25}{}%
+\contentsline {subsection}{\numberline {7.5}Poisson's ratio}{25}{}%
+\contentsline {subsection}{\numberline {7.6}Moduli relations}{26}{}%
+\contentsline {subsection}{\numberline {7.7}Radioactive decay law}{26}{}%
+\contentsline {subsubsection}{\numberline {7.7.1}Half-life}{26}{}%
+\contentsline {section}{\numberline {8}Waves}{27}{}%
+\contentsline {subsection}{\numberline {8.1}Universal wave equation}{27}{}%
+\contentsline {subsection}{\numberline {8.2}Basic wave equation}{27}{}%
+\contentsline {subsection}{\numberline {8.3}Intensity of a sound}{27}{}%
+\contentsline {subsubsection}{\numberline {8.3.1}Decibels and intensity measurement}{27}{}%
+\contentsline {subsection}{\numberline {8.4}Simple harmonic motion}{28}{}%
+\contentsline {subsection}{\numberline {8.5}Sound waves in pipes}{28}{}%
+\contentsline {subsubsection}{\numberline {8.5.1}Open pipes}{28}{}%
+\contentsline {subsubsection}{\numberline {8.5.2}Pipes closed on one end}{28}{}%
+\contentsline {subsection}{\numberline {8.6}Waves on a stretched wire}{29}{}%
+\contentsline {subsubsection}{\numberline {8.6.1}Wave speed}{29}{}%
+\contentsline {subsubsection}{\numberline {8.6.2}Frequency}{29}{}%
+\contentsline {subsection}{\numberline {8.7}Doppler effect}{29}{}%
+\contentsline {section}{\numberline {9}Fluids}{30}{}%
+\contentsline {subsection}{\numberline {9.1}Jargon}{30}{}%
+\contentsline {subsection}{\numberline {9.2}Continuity of flow}{30}{}%
+\contentsline {subsection}{\numberline {9.3}Bernoulli's equation}{30}{}%
+\contentsline {subsection}{\numberline {9.4}Torricelli's theorem}{30}{}%
+\contentsline {subsection}{\numberline {9.5}Reynold's number and stability}{31}{}%
+\contentsline {subsection}{\numberline {9.6}Poiseuille's method for determining viscosity}{31}{}%
+\contentsline {subsection}{\numberline {9.7}Drag force}{31}{}%
+\contentsline {subsubsection}{\numberline {9.7.1}Terminal velocity}{31}{}%

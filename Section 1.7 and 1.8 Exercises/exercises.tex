@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, amsmath}
+
+\title{Section 1.7 and 1.8 Exercises}
+\author{Simon Wu}
+\date{March 2021}
+
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+    \Huge{Section 1.7 and 1.8 Exercises}
+    
+    \vspace{1in}
+    
+    \Large{Simon Wu}
+    
+    \Large{\today}
+    
+    \vspace{1in}
+    
+    \Large{MPM2DE-B}
+
+    
+\end{center}
+
+\end{titlepage}
+
+\section*{Section 1.7 Exercises}
+
+\subsection*{Study 11}
+
+\begin{displayquote}
+If you know the midpoints of the sides of a triangle, how can you determine the coordinates of the vertices?
+\end{displayquote}
+
+We can use the mid-segment theorem to solve this problem.
+Given that the line segment formed by the midpoints of two sides of a triangle will be parallel to the remaining side, and that by definition the midpoint of that side has to be on the line segment of that side, we can create a process for determining the coordinates of the vertices.
+
+\begin{enumerate}
+    \item Select two of the midpoints.
+    \item Find the slope of the line segment formed by those two midpoints.
+    \item Knowing that the slope of the side that the unused midpoint must be equal to this slope, and that the unused midpoint will lie on the line segment of that side, derive the equation for that side.
+    \item Repeat this process with each pair of midpoints, and determine the equations of each of the sides.
+    \item Find the intersections of each of the line equations determined, in order to determine the vertices of the desired triangle.
+\end{enumerate}
+
+\newpage
+
+\subsection*{Study 12}
+
+\begin{displayquote}
+Determine the coordinates of the point(s) on the $x$-axis which are 5 units from the point $P(5,4)$.
+\end{displayquote}
+
+\subsubsection*{Approach 1}
+
+We can simply use the formula for the distance between two points in the coordinate plane. Given two points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$, the distance between these two points is given by:
+
+\[
+d_{1, 2} = \sqrt{(y_2 - y_1)^2 + (x_2 - x_1)^2}
+\]
+
+Knowing that we only need to consider points on the x-axis, we know that the y-coordinates of our desired points will be 0. Therefore, considering the distance between a potential point $P_q(x, 0)$ and $P$:
+
+\begin{align*}
+    5 &= \sqrt{(4 - 0)^2 + (5 - x)^2}\\
+    5 &= \sqrt{4^2 + (5 - x)^2}\\
+    5 &= \sqrt{16 + (5 - x)^2}\\
+    25 &= 16 + (5 - x)^2\\
+    9 &= (5 - x)^2\\
+    \pm 3 &= 5 - x\\
+    x &= 5 \pm 3
+\end{align*}
+
+We can see that while the y-coordinate of our answer must be 0, there are 2 possibilities for $x$: $x$ could be 2 or 8.
+There are therefore two points that satisfy our initial conditions: $P_1(2, 0)$ and $P_2(8, 0)$.
+
+\subsubsection*{Approach 2}
+
+There is another approach, though: we can recognize that the locus of points a certain distance away from a given point is simply a circle centered at that given point. Our desired points will lie on that circle.
+
+The equation of a circle of radius $r$ and centered at $(a, b)$ is given by:
+
+\[
+(x - a)^2 + (y - b)^2 = r^2
+\]
+
+Knowing that our center $(a, b)$ is $(5, 4)$, that our radius (distance from center to any of the points in the circle) $r$ is 5, and that the y-coordinate of our desired point(s) will be 0:
+
+\begin{align*}
+    (x - a)^2 + (y - b)^2 &= r^2\\
+    (x - 5)^2 + 4^2 &= 5^2\\
+    (x - 5)^2 + 16 &= 25\\
+    (x - 5)^2 &= 9\\
+    x - 5 &= \pm 3\\
+    x &= 5 \pm 3
+\end{align*}
+
+Once again, we see that the x-coordinate of our desired points could be either 2 or 8, and we find the same points as in approach 1: $P_1(2, 0)$ and $P_2(8, 0)$.
+
+\section*{Section 1.8 Exercises}
+
+
+
+\end{document}

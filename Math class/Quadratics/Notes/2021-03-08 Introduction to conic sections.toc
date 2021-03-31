@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Conic sections}{1}{}%
+\contentsline {section}{\numberline {2}Features of parabolas}{1}{}%
+\contentsline {section}{\numberline {3}Recognizing parabolas}{1}{}%
+\contentsline {subsection}{\numberline {3.1}Identifying features of a parabola}{1}{}%
+\contentsline {section}{\numberline {4}Standard equation form}{2}{}%
+\contentsline {subsection}{\numberline {4.1}The base parabola}{2}{}%
+\contentsline {subsection}{\numberline {4.2}The factored form}{2}{}%
+\contentsline {subsection}{\numberline {4.3}The standard form}{2}{}%
+\contentsline {subsection}{\numberline {4.4}The vertex form}{2}{}%

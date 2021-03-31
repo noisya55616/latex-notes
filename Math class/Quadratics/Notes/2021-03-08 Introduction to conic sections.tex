@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, amsmath, amssymb, graphicx, tikz, geometry, multicol, color, calc}
+\geometry{margin=1in}
+
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+    \Huge{Quadratics superdocument}
+    
+    \vspace{1in}
+    
+    \Large{Simon Wu}
+    
+    \Large{\today}
+    
+    \vspace{1in}
+    
+    \Large{MPM2DE-B}
+
+    
+\end{center}
+
+\tableofcontents
+
+\end{titlepage}
+
+\section{Conic sections}
+
+\section{Features of parabolas}
+
+\section{Recognizing parabolas}
+
+\subsection{Identifying features of a parabola}
+
+\begin{center}
+
+\begin{tikzpicture}[domain=-4:2]
+    %\draw[very thin,color=gray] (-5,-5) grid (5,5);
+    \draw[very thick,<->] (-5.2,0) -- (5.2,0) node[right] {$x$};
+    \draw[very thick,<->] (0,-5.2) -- (0,5.2) node[above] {$y$};
+    \draw[very thick,color=red] plot[id=eq1] function{(x + 3) * (x - 1)};
+
+	\filldraw[black] (-1,-4) circle (2pt) node[anchor=north east] {Vertex};
+
+	\filldraw[black] (-3,0) circle (2pt) node[anchor=south west] {Zero};
+	\filldraw[black] (1,0) circle (2pt) node[anchor=south west] {Zero};
+
+	\filldraw[black] (0,-3) circle (2pt) node[anchor=west] {Initial Value};
+
+	\draw[thin, dashed] (-5,-4) -- (5,-4) node[anchor=west] {Optimal Value};
+	\draw[thin, dashed] (-1,5) -- (-1,-5) node[anchor=north] {Axis of Symmetry};
+
+\end{tikzpicture}
+
+\end{center}
+
+\newpage
+
+\section{Standard equation form}
+
+\subsection{The base parabola}
+
+The most basic and simple equation for a parabola is as follows:
+
+\[
+\boxed{
+y = x^2
+}
+\]
+
+\subsection{The factored form}
+
+The factored form would involve an equation that has a product.
+
+\[
+\boxed{
+y = a(x - s)(x - t)
+}
+\]
+
+Factored form is useful because it directly gives the roots, which will be $s$ and $t$.
+
+\subsection{The standard form}
+
+The standard form is as follows:
+
+\[
+\boxed{
+y = ax^2 + bx + c
+}
+\text{ where } a,b,c \in \mathbb{R}
+\]
+
+You can express any degree of polynomial with this standard form and it's easy to do many different types of computation with it.
+
+The parabola opens up if $a>0$ and down if $a<0$.
+The parabola is vertically stretched is $|a| > 0$ and compressed if $0 < |a| < 1$.
+$c$ gives the $y$-intercept of the parabola.
+
+\subsection{The vertex form}
+
+The vertex form is as follows:
+
+\[
+\boxed{
+y = a(x - h)^2 + k
+}
+%\text{ where } a,b,c \in \mathbb{R}
+\]
+
+This equation form allows for a much easier visualization and drawing of the parabola from the equation, without any rearrangement.
+
+The optimum value is $k$, the axis of symmetry lovation is $h$, and the vertex is located at $(h, k)$.
+The value of $a$ determines the same properties of the parabola as it does in the standard form.
+The parabola opens up if $a>0$ and down if $a<0$.
+The parabola is vertically stretched is $|a| > 0$ and compressed if $0 < |a| < 1$.
+
+
+\end{document}

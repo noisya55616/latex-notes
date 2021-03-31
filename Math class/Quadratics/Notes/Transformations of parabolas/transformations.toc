@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Part 1: Gannet depth}{1}{}%
+\contentsline {section}{\numberline {2}Part 2: Gannet time}{1}{}%
+\contentsline {section}{\numberline {3}Part 3: Fish depth}{1}{}%
+\contentsline {section}{\numberline {4}Part 4: Gannet time II}{2}{}%
+\contentsline {subsection}{\numberline {4.1}Finding the roots of the equation}{2}{}%
+\contentsline {subsection}{\numberline {4.2}Time to catch the fish}{2}{}%
+\contentsline {subsection}{\numberline {4.3}Time to reach the surface after catching the fish}{2}{}%

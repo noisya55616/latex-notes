@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, amsmath, amssymb, graphicx, tikz, geometry, multicol}
+\geometry{margin=1in}
+
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+    \Huge{Transformations of parabolas quiz}
+    
+    \vspace{0.5in}
+    
+    \Large{Question 1}
+    
+    \vspace{0.5in}
+    
+    \Large{Simon Wu}
+    
+    \Large{\today}
+    
+    \vspace{1in}
+    
+    \Large{MPM2DE-B}
+
+    
+\end{center}
+
+\tableofcontents
+
+\end{titlepage}
+
+In this solution, I will be using the terms $x$-coordinate and $y$-coordinate to refer to $t$ and $d$ values respectively.
+
+\section{Part 1: Gannet depth}
+
+The equation given is:
+
+\[
+d = -(t - 2.5)^2 + 7
+\]
+
+$d$ represents the depth below the water surface that the gannet reaches, so the greatest depth that the gannet reaches should be the optimal value, because the optimal value represents the highest or lowest value of the parabola, and seeing from teh equation that this parabola opens downwards, the optimal value will yield a maximum depth.
+The optimal value can be found using the vertex of a parabola (it will be the $y$-value of the vertex).
+
+Seeing that the equation of the gannet's depth is given as a quadratic equation in vertex form, this is rather easy to find: the coordinates of the vertex of the parabola are $(2.5, 7)$, because the parabola equation is given in the form $y = a(x-h)^2 + k$, where $(h, k)$ is the vertex of the parabola.
+
+Therefore, the maximum depth that the gannet reaches is going to be $7$ meters $\blacksquare$.
+
+\section{Part 2: Gannet time}
+
+The time that the gannet takes to reach the greatest depth will be the $x$-value of the vertex of the parabola, because that is the time that it reaches the greatest depth.
+We have already found the vertex of the parabola in the previous part: it is $(2.5, 7)$, and because the time that the gannet takes to reach the greatest depth is the $x$-value of that coordinate, the time that it takes the gannet to reach the greatest depth is therefore $2.5$ seconds $\blacksquare$.
+
+\section{Part 3: Fish depth}
+
+Knowing that the time $t$ represents the time elapsed from the instant the gannet catches the fish, the gannet will have caught the fish at exactly $t = 0$ seconds.
+This means that if we evaluate $d$ at $t = 0$, the equation will yield the depth of the fish that the gannet caught.
+
+\[
+d_{\text{fish}} = -(t - 2.5)^2 + 7 \text{ when } t = 0
+\]
+\[
+d_{\text{fish}} = -(-2.5)^2 + 7
+\]
+\[
+d_{\text{fish}} = 0.75\text{ meters } \blacksquare
+\]
+
+\newpage
+
+\section{Part 4: Gannet time II}
+
+\subsection{Finding the roots of the equation}
+
+We will need to find the roots of the equation.
+The roots represent the times at which the gannet is at the surface, because roots represent points where $d=0$.
+
+To find the roots, first we have to set $d=0$.
+
+\[
+d = -(t - 2.5)^2 + 7
+\]
+\[
+0 = -(t - 2.5)^2 + 7
+\]
+\[
+(t - 2.5)^2 = 7
+\]
+\[
+t - 2.5 = \pm \sqrt{7}
+\]
+\[
+t = 2.5 \pm \sqrt{7}
+\]
+
+The roots of the equation (the times that the gannet is at the surface of the water) are therefore $t = 2.5 + \sqrt{7}$ seconds and $t = 2.5 - \sqrt{7}$ seconds.
+
+\subsection{Time to catch the fish}
+
+The time to catch the fish is given by the amount of elapsed time between the smaller root and the time $t = 0$, because the smaller root of the equation represents the first time the gannet is at the surface, which will be when the gannet first enters the water to pursue the fish.
+
+The smaller root of the equation is $t = 2.5 - \sqrt{7}$, and the difference between that time and $t = 0$, when the gannet catches the fish, is $\left|2.5 - \sqrt{7}\right| \approx 0.15$ seconds. It therefore takes about $0.15$ seconds for the gannet to catch the fish after it enters the water $\blacksquare$.
+
+\subsection{Time to reach the surface after catching the fish}
+
+The moment that the gannet resurfaces after catching the fish is represented by the larger root of the equation, because that represents the moment in time that the gannet hits the surface after it first enters the water, which will be resurfacing time.
+
+The time that it take the gannet to resurface after it catches the fish is given by the difference in time between $t = 0$ and $t = 2.5 + \sqrt{7}$, the larger root (essentially, elapsed time between $t = 0$ and $t = 2.5 + \sqrt{7}$).
+
+It therefore takes about $\left| 2.5 + \sqrt{7} \right| \approx 5.15$ seconds for the gannet to resurface after catching the fish $\blacksquare$.
+
+\end{document}
