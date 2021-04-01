@@ -1,0 +1,177 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+
+\author{Simon Wu}
+\date{March 2021}
+
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+    \Huge{Quadratics assignment}
+    
+    \vspace{1in}
+    
+    \Large{Simon Wu}
+    
+    \Large{\today}
+    
+    \vspace{1in}
+    
+    \Large{MPM2DE-B}
+    
+\end{center}
+
+\tableofcontents
+
+\end{titlepage}
+
+\section{My values}
+
+My class list number is $26$. My values are therefore:
+
+\begin{itemize}
+
+\item $a=3$
+\item $b=32$
+\item $c=-11$
+\item $u=36$
+\item $v=484$
+\item $w=18$
+
+\end{itemize}
+
+\section{Distributive property}
+
+\subsection{Substituting values in}
+
+\[
+a(bx+c)^2 = 3(32x-11)^2
+\]
+
+\subsection{Expanding and simplifying}
+
+Firstly, I prefer to begin by expanding exponents.
+I'll start by using the distributive property to expand the square in this expression.
+
+Knowing that by the distributive property, $(m+n)^2 = m^2 + 2mn + n^2$...
+
+\[
+3(32x-11)^2 = 3[(32x)^2 + 2(32x)(-11) + (-11)^2]
+\]
+
+Simplifying that...
+
+\[
+3(32x-11)^2 = 3(1024x^2 -704x + 121)
+\]
+
+Now, I can expand this further using the distributive property by multiplying every term inside of those brackets by $3$.
+
+\[
+3(32x-11)^2 = 3072x^2 -2112x + 363 \blacksquare
+\]
+
+This is as simple as it gets - no like terms to collect or anything.
+
+\newpage
+
+\section{Decomposition}
+
+\subsection{Substituting values in}
+
+\[
+ax^2 + bx + c = 3x^2 + 32x - 11
+\]
+
+\subsection{The decomposition process}
+
+\subsubsection{Finding some appropriate values}
+
+Looking at the polynomial on our hands here, I know that there aren't any common factors to remove.
+I will look for a pair of values such that they sum to $b=32$ and have a product of $a\times c = -33$.
+
+Testing out some pairs of factors of $-33$, I can immediately notice that the numbers $33$ and $-1$ will have a product of $-33$ and a sum of $32$.
+
+\subsubsection{Working with the trinomial}
+
+Now, I can decompose the middle term of the trinomial into the values I found earlier to begin to factor it.
+
+\[
+3x^2 + 32x - 11 = 3x^2 - x + 33x - 11
+\]
+
+Notice that this very conveniently creates an opportunity to group some terms and begin to find some common factors.
+
+\[
+(3x^2 - x) + (33x - 11) = x(3x - 1) + 11(3x - 1)
+\]
+
+Rearranging this last expression a little, we find the fully factored trinomial.
+
+\[
+3x^2 + 32x - 11 = (3x - 1)(x + 11)\blacksquare
+\]
+
+\newpage
+
+\section{Difference of squares}
+
+\subsection{Substituting values in}
+
+\[
+ux^2 - v = 36x^2 - 484
+\]
+
+\subsection{Find the right method to factor this binomial}
+
+Now, you didn't explicitly tell us what factoring method to use here, but I can immediately tell that there is a very easy way to factor this binomial.
+This is because this binomial happens to be a difference of squares: both $36x^2$ and $484$ happen to be perfect squares! We can therefore very easily factor this binomial using the difference of squares method.
+
+\subsection{Factoring the binomial with difference of squares}
+
+Knowing that the factoring of a difference of squares takes the form of $m^2 - n^2 = (m+n)(m-n)$, we can observe that from the form of the equation, $m^2 = 36x^2$ and $n^2 = 484$.
+
+We therefore know that $m = \pm \sqrt{36x^2} = \pm 6x$ and $n = \pm \sqrt{484} = \pm 22$.
+I will take both $m$ and $n$ to be positive.
+
+Therefore, our original binomial can be factored as follows, after pulling out some common factors: 
+
+\[
+36x^2 - 484 = (6x + 22)(6x - 22) = 4(3x + 11)(3x - 11)\blacksquare
+\]
+
+\newpage
+
+\section{Completing the square}
+
+\subsection{Substituting values in}
+
+\[
+y = ax^2 + wx + c \longrightarrow y = 3x^2 + 18x - 11
+\]
+
+\subsection{Completing the square for this trinomial}
+
+Might as well get our hands dirty immediately.
+
+\begin{align*} 
+y &= 3x^2 + 18x - 11 \\
+  &= 3(x^2 + 6x) - 11 \text{ (pulling $a$ out)}\\
+  &= 3(x^2 + 6x + 9 - 9) - 11 \text{ (adding an appropriate value to get a perfect square)}\\
+  &= 3(x^2 + 6x + 9) - 27 - 11 \text{ (pulling that value out of the bracket with dist. property)}\\
+  &= 3(x + 3)^2 - 38\blacksquare \text{ (gathering the like terms on the right and simplifying the perfect square)}
+\end{align*}
+
+We have now completed the square.
+
+\[
+y = 3x^2 + 18x - 11 \longrightarrow \boxed{y = 3(x + 3)^2 - 38}
+\]
+
+\end{document}
