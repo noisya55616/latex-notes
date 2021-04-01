@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  29 MAR 2021 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.4)  31 MAR 2021 18:14
 entering extended mode
 **./physics-review.tex
 (physics-review.tex
@@ -148,6 +148,77 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mhchem\mhchem.st
+y
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.s
+ty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3back
+end-pdftex.def
+File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box49
+))
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/l3key
+s2e\l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/latex-tools\calc
+.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count269
+\calc@Bcount=\count270
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count271
+\calc@Cskip=\skip54
+)
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chemgreek\chemgr
+eek.sty
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xpars
+e\xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+
+(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xpars
+e\xparse-generic.tex))
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count272
+\g__chemgreek_tmpa_int=\count273
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count274
+\__mhchem_arrow_extPgfLength_skip=\skip55
+\mhchem@minispace@tmp=\skip56
+\mhchem@minibackspace@tmp=\skip57
+\mhchem@bondwidth=\skip58
+\mhchem@bondheight=\skip59
+\mhchem@smallbondwidth@tmpA=\skip60
+\mhchem@smallbondwidth@tmpB=\skip61
+\mhchem@smallbondwidth=\skip62
+\mhchem@bondtmp@minussidebearingleft=\skip63
+\mhchem@bondtmp@minussidebearingright=\skip64
+\l__mhchem_option_version_int=\count275
+\mhchem@option@minusmathsidebearingleft=\dimen160
+\mhchem@option@minusmathsidebearingright=\dimen161
+\mhchem@option@minustextsidebearingleft=\dimen162
+\mhchem@option@minustextsidebearingright=\dimen163
+
+
+Package mhchem Warning: You did not specify a 'version' option for the mhchem
+(mhchem)                package. Please write \usepackage[version=4]{mhchem}
+(mhchem)                in your preamble (or any lower number for
+(mhchem)                compatibility mode), because you might get slightly
+(mhchem)                different output with the same input in future versions
+.
+
+)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlaye
 r\tikz.sty
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\p
@@ -157,14 +228,14 @@ frcs.sty
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\
 pgfutil-common.tex
 \pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen158
-\pgfutil@tempdimb=\dimen159
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
 
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\
 pgfutil-common-lists.tex))
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\
 pgfutil-latex.def
-\pgfutil@abb=\box49
+\pgfutil@abb=\box50
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\
 pgfrcs.code.tex
@@ -191,26 +262,26 @@ pgfkeys.code.tex
 pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks27
 ))
-\pgf@x=\dimen160
-\pgf@y=\dimen161
-\pgf@xa=\dimen162
-\pgf@ya=\dimen163
-\pgf@xb=\dimen164
-\pgf@yb=\dimen165
-\pgf@xc=\dimen166
-\pgf@yc=\dimen167
-\pgf@xd=\dimen168
-\pgf@yd=\dimen169
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\pgf@xd=\dimen174
+\pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count268
-\c@pgf@countb=\count269
-\c@pgf@countc=\count270
-\c@pgf@countd=\count271
+\c@pgf@counta=\count276
+\c@pgf@countb=\count277
+\c@pgf@countc=\count278
+\c@pgf@countd=\count279
 \t@pgf@toka=\toks28
 \t@pgf@tokb=\toks29
 \t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count272
+\pgf@sys@id@count=\count280
 
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlaye
 r\pgf.cfg
@@ -229,8 +300,8 @@ File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlaye
 r\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count273
-\pgfsyssoftpath@bigbuffer@items=\count274
+\pgfsyssoftpath@smallbuffer@items=\count281
+\pgfsyssoftpath@bigbuffer@items=\count282
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlaye
 r\pgfsysprotocol.code.tex
@@ -267,9 +338,9 @@ thcalc.code.tex
 thutil.code.tex)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfma
 thparser.code.tex
-\pgfmath@dimen=\dimen170
-\pgfmath@count=\count275
-\pgfmath@box=\box50
+\pgfmath@dimen=\dimen176
+\pgfmath@count=\count283
+\pgfmath@box=\box51
 \pgfmath@toks=\toks31
 \pgfmath@stack@operand=\toks32
 \pgfmath@stack@operation=\toks33
@@ -294,59 +365,59 @@ thfunctions.misc.code.tex)
 thfunctions.integerarithmetics.code.tex)))
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfma
 thfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count276
+\c@pgfmathroundto@lastzeros=\count284
 ))
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfin
 t.code.tex)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen171
-\pgf@picmaxx=\dimen172
-\pgf@picminy=\dimen173
-\pgf@picmaxy=\dimen174
-\pgf@pathminx=\dimen175
-\pgf@pathmaxx=\dimen176
-\pgf@pathminy=\dimen177
-\pgf@pathmaxy=\dimen178
-\pgf@xx=\dimen179
-\pgf@xy=\dimen180
-\pgf@yx=\dimen181
-\pgf@yy=\dimen182
-\pgf@zx=\dimen183
-\pgf@zy=\dimen184
+\pgf@picminx=\dimen177
+\pgf@picmaxx=\dimen178
+\pgf@picminy=\dimen179
+\pgf@picmaxy=\dimen180
+\pgf@pathminx=\dimen181
+\pgf@pathmaxx=\dimen182
+\pgf@pathminy=\dimen183
+\pgf@pathmaxy=\dimen184
+\pgf@xx=\dimen185
+\pgf@xy=\dimen186
+\pgf@yx=\dimen187
+\pgf@yy=\dimen188
+\pgf@zx=\dimen189
+\pgf@zy=\dimen190
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen185
-\pgf@path@lasty=\dimen186
+\pgf@path@lastx=\dimen191
+\pgf@path@lasty=\dimen192
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen187
-\pgf@shorten@start@additional=\dimen188
+\pgf@shorten@end@additional=\dimen193
+\pgf@shorten@start@additional=\dimen194
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box51
-\pgf@hbox=\box52
-\pgf@layerbox@main=\box53
-\pgf@picture@serial@count=\count277
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count285
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen189
+\pgflinewidth=\dimen195
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen190
-\pgf@pt@y=\dimen191
-\pgf@pt@temp=\dimen192
+\pgf@pt@x=\dimen196
+\pgf@pt@y=\dimen197
+\pgf@pt@temp=\dimen198
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorequick.code.tex
@@ -363,14 +434,14 @@ File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen193
+\pgfarrowsep=\dimen199
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen194
-\pgf@sys@shading@range@num=\count278
-\pgf@shadingcount=\count279
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count286
+\pgf@shadingcount=\count287
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoreimage.code.tex
@@ -379,7 +450,7 @@ File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box54
+\pgfexternal@startupbox=\box55
 ))
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer
 \pgfcorelayers.code.tex
@@ -400,7 +471,7 @@ File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pg
 fmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box55
+\pgfnodeparttextbox=\box56
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pg
 fmoduleplot.code.tex
@@ -409,8 +480,8 @@ File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibilit
 y\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen195
-\pgf@nodesepend=\dimen196
+\pgf@nodesepstart=\dimen257
+\pgf@nodesepend=\dimen258
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibilit
 y\pgfcomp-version-1-18.sty
@@ -432,8 +503,8 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfma
 th.code.tex)
-\pgffor@iter=\dimen197
-\pgffor@skip=\dimen198
+\pgffor@iter=\dimen259
+\pgffor@skip=\dimen260
 \pgffor@stack=\toks34
 \pgffor@toks=\toks35
 ))
@@ -444,34 +515,34 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\
 pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count280
-\pgfplotmarksize=\dimen199
+\pgf@plot@mark@count=\count288
+\pgfplotmarksize=\dimen261
 )
-\tikz@lastx=\dimen256
-\tikz@lasty=\dimen257
-\tikz@lastxsaved=\dimen258
-\tikz@lastysaved=\dimen259
-\tikz@lastmovetox=\dimen260
-\tikz@lastmovetoy=\dimen261
-\tikzleveldistance=\dimen262
-\tikzsiblingdistance=\dimen263
-\tikz@figbox=\box56
-\tikz@figbox@bg=\box57
-\tikz@tempbox=\box58
-\tikz@tempbox@bg=\box59
-\tikztreelevel=\count281
-\tikznumberofchildren=\count282
-\tikznumberofcurrentchild=\count283
-\tikz@fig@count=\count284
+\tikz@lastx=\dimen262
+\tikz@lasty=\dimen263
+\tikz@lastxsaved=\dimen264
+\tikz@lastysaved=\dimen265
+\tikz@lastmovetox=\dimen266
+\tikz@lastmovetoy=\dimen267
+\tikzleveldistance=\dimen268
+\tikzsiblingdistance=\dimen269
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count289
+\tikznumberofchildren=\count290
+\tikznumberofcurrentchild=\count291
+\tikz@fig@count=\count292
 
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pg
 fmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count285
-\pgfmatrixcurrentcolumn=\count286
-\pgf@matrix@numberofcolumns=\count287
+\pgfmatrixcurrentrow=\count293
+\pgfmatrixcurrentcolumn=\count294
+\pgf@matrix@numberofcolumns=\count295
 )
-\tikz@expandcount=\count288
+\tikz@expandcount=\count296
 
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendla
 yer/tikz/libraries\tikzlibrarytopaths.code.tex
@@ -480,28 +551,27 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/latex-tools\mult
 icol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count289
-\mult@box=\box60
-\multicol@leftmargin=\dimen264
-\c@unbalance=\count290
-\c@collectmore=\count291
-\doublecol@number=\count292
-\multicoltolerance=\count293
-\multicolpretolerance=\count294
-\full@width=\dimen265
-\page@free=\dimen266
-\premulticols=\dimen267
-\postmulticols=\dimen268
-\multicolsep=\skip52
-\multicolbaselineskip=\skip53
-\partial@page=\box61
-\last@line=\box62
-\maxbalancingoverflow=\dimen269
-\mult@rightbox=\box63
-\mult@grightbox=\box64
-\mult@gfirstbox=\box65
-\mult@firstbox=\box66
-\@tempa=\box67
+\c@tracingmulticols=\count297
+\mult@box=\box61
+\multicol@leftmargin=\dimen270
+\c@unbalance=\count298
+\c@collectmore=\count299
+\doublecol@number=\count300
+\multicoltolerance=\count301
+\multicolpretolerance=\count302
+\full@width=\dimen271
+\page@free=\dimen272
+\premulticols=\dimen273
+\postmulticols=\dimen274
+\multicolsep=\skip65
+\multicolbaselineskip=\skip66
+\partial@page=\box62
+\last@line=\box63
+\maxbalancingoverflow=\dimen275
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@gfirstbox=\box66
+\mult@firstbox=\box67
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
@@ -538,15 +608,16 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box101
 \@tempa=\box102
 \@tempa=\box103
-\c@minrows=\count295
-\c@columnbadness=\count296
-\c@finalcolumnbadness=\count297
-\last@try=\dimen270
-\multicolovershoot=\dimen271
-\multicolundershoot=\dimen272
-\mult@nat@firstbox=\box104
-\colbreak@box=\box105
-\mc@col@check@num=\count298
+\@tempa=\box104
+\c@minrows=\count303
+\c@columnbadness=\count304
+\c@finalcolumnbadness=\count305
+\last@try=\dimen276
+\multicolovershoot=\dimen277
+\multicolundershoot=\dimen278
+\mult@nat@firstbox=\box105
+\colbreak@box=\box106
+\mc@col@check@num=\count306
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/circuitikz\circu
 itikz.sty
@@ -560,10 +631,10 @@ File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\
 pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowinset=\dimen273
-\pgfarrowlength=\dimen274
-\pgfarrowwidth=\dimen275
-\pgfarrowlinewidth=\dimen276
+\pgfarrowinset=\dimen279
+\pgfarrowlength=\dimen280
+\pgfarrowwidth=\dimen281
+\pgfarrowlinewidth=\dimen282
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendla
 yer/tikz/libraries\tikzlibrarybending.code.tex
@@ -576,18 +647,18 @@ File: pgfmodulebending.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pg
 fmodulenonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgftransformnonlinearflatness=\dimen277
+\pgftransformnonlinearflatness=\dimen283
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\
 pgflibrarycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@curvilinear@time@a=\dimen278
-\pgf@curvilinear@length@a=\dimen279
-\pgf@curvilinear@length@b=\dimen280
-\pgf@curvilinear@length@c=\dimen281
-\pgf@curvilinear@length@d=\dimen282
+\pgf@curvilinear@time@a=\dimen284
+\pgf@curvilinear@length@a=\dimen285
+\pgf@curvilinear@length@b=\dimen286
+\pgf@curvilinear@length@c=\dimen287
+\pgf@curvilinear@length@d=\dimen288
 )
-\pgf@arrows@the@rigidity=\dimen283
+\pgf@arrows@the@rigidity=\dimen289
 ))
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendla
 yer/tikz/libraries\tikzlibraryfpu.code.tex
@@ -595,20 +666,20 @@ yer/tikz/libraries\tikzlibraryfpu.code.tex
 pgflibraryfpu.code.tex))
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgf
 circ.defines.tex
-\pgf@circ@count@a=\count299
-\pgf@circ@count@b=\count300
-\pgf@circ@count@c=\count301
-\pgf@circ@res@up=\dimen284
-\pgf@circ@res@down=\dimen285
-\pgf@circ@res@zero=\dimen286
-\pgf@circ@res@left=\dimen287
-\pgf@circ@res@right=\dimen288
-\pgf@circ@res@other=\dimen289
-\pgf@circ@res@step=\dimen290
-\pgf@circ@res@temp=\dimen291
-\pgf@circ@Rlen=\dimen292
-\pgf@circ@scaled@Rlen=\dimen293
-\pgfstartlinewidth=\dimen294
+\pgf@circ@count@a=\count307
+\pgf@circ@count@b=\count308
+\pgf@circ@count@c=\count309
+\pgf@circ@res@up=\dimen290
+\pgf@circ@res@down=\dimen291
+\pgf@circ@res@zero=\dimen292
+\pgf@circ@res@left=\dimen293
+\pgf@circ@res@right=\dimen294
+\pgf@circ@res@other=\dimen295
+\pgf@circ@res@step=\dimen296
+\pgf@circ@res@temp=\dimen297
+\pgf@circ@Rlen=\dimen298
+\pgf@circ@scaled@Rlen=\dimen299
+\pgfstartlinewidth=\dimen300
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgf
 circutils.tex)
@@ -622,7 +693,7 @@ circmonopoles.tex)
 circbipoles.tex)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgf
 circtripoles.tex
-\pgf@circ@res@count=\count302
+\pgf@circ@res@count=\count310
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgf
 circquadpoles.tex)
@@ -632,34 +703,28 @@ circmultipoles.tex)
 circlabel.tex)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgf
 circvoltage.tex
-\pgfcirc@labelshift=\dimen295
+\pgfcirc@labelshift=\dimen301
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgf
 circcurrent.tex)
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgf
-circflow.tex))
-(C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3back
-end-pdftex.def
-File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count303
-\l__pdf_internal_box=\box106
-) (physics-review.aux)
+circflow.tex)) (physics-review.aux)
 \openout1 = `physics-review.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -699,16 +764,16 @@ LaTeX Font Info:    ... okay on input line 15.
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen296
+\scratchcounter=\count311
+\scratchdimen=\dimen302
 \scratchbox=\box107
-\nofMPsegments=\count305
-\nofMParguments=\count306
+\nofMPsegments=\count312
+\nofMParguments=\count313
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen297
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen303
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
 \everyMPtoPDFconversion=\toks37
 )
 (C:\Users\Simon Wu\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\eps
@@ -716,19 +781,23 @@ topdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-) (physics-review.toc [1
+)
+
+Package chemgreek Info: Activating mapping `default' on line 16.
+
+ (physics-review.toc [1
 
 {C:/Users/Simon Wu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3])
 \tf@toc=\write4
 \openout4 = `physics-review.toc'.
 
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 [5] [6] [7] [8] [9] [10] [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 658--659
+Underfull \hbox (badness 10000) in paragraph at lines 659--660
 
  []
 
@@ -736,18 +805,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 658--659
 <carnot_cycle_pv_ts.png, id=90, 949.74825pt x 532.99126pt>
 File: carnot_cycle_pv_ts.png Graphic file (type png)
 <use carnot_cycle_pv_ts.png>
-Package pdftex.def Info: carnot_cycle_pv_ts.png  used on input line 1294.
+Package pdftex.def Info: carnot_cycle_pv_ts.png  used on input line 1295.
 (pdftex.def)             Requested size: 469.75499pt x 263.6241pt.
  [24 <./carnot_cycle_pv_ts.png>] [25] [26] [27] [28] [29] [30] [31] (physics-re
 view.aux) ) 
 Here is how much of TeX's memory you used:
- 26429 strings out of 479334
- 674275 string characters out of 2853722
- 1141371 words of memory out of 3000000
- 43598 multiletter control sequences out of 15000+200000
+ 27431 strings out of 479334
+ 697449 string characters out of 2853722
+ 1181677 words of memory out of 3000000
+ 44579 multiletter control sequences out of 15000+200000
  411210 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,7n,89p,419b,779s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 87i,13n,89p,419b,781s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Simon Wu/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmbx12.pfb><C:/Users/Simon Wu/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Simon Wu/AppData/Local/Pro
@@ -765,7 +834,7 @@ msfonts/cm/cmr8.pfb><C:/Users/Simon Wu/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Simon Wu/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Simon Wu/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on physics-review.pdf (31 pages, 324509 bytes).
+Output written on physics-review.pdf (31 pages, 324714 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
