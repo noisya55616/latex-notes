@@ -1,0 +1,203 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, amsmath, amssymb, graphicx, tikz, geometry, multicol}
+\geometry{margin=1in}
+
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+    \Huge{Quadratic Applications Assignment}
+    
+    \vspace{0.5in}
+    
+    \Large{Simon Wu}
+    
+    \Large{\today}
+    
+    \vspace{0.5in}
+    
+    \Large{MPM2DE-B}
+
+    
+\end{center}
+
+\section*{Problem statement}
+
+\begin{displayquote}
+
+Suppose a company charges $\$3.50$ per item and sells $52$ items daily. For every $\$0.50$ decrease in price per item, the daily sales increase by $3$ items.
+
+\begin{enumerate}
+\item Create an equation for a quadratic relation that models the daily revenue collected in terms of one independent variable. Remember to define your variables. Show your calculations and reasoning.
+\item Use your equation from part $1$ to determine the maximum possible daily revenue. Show your calculations and reasoning.
+\item Use your equation from part $1$ to determine the price per item that would yield daily revenue of $\$150$. Show your calculations and reasoning.
+\end{enumerate}
+
+\end{displayquote}
+
+\tableofcontents
+
+\end{titlepage}
+
+\section{Modelling the situation with equations}
+
+\subsection{Defining variables}
+
+Let $r$ be the revenue generated in a day, and $m$ be the amount of money that the price of an item is decreased by, both in dollars.
+Additionally, let $p$ be the price per item in dollars per item, and $n$ be the amount of items that the company sells in a day.
+
+\subsection{Relating these values}
+
+Firstly, we can observe that daily revenue is simply the product of the price per item and items sold per day.
+
+\[
+r = pn
+\]
+
+Next, we can observe that can be expressed in terms of the initial price of $\$3.50$ and the change in price $m$.
+
+\[
+p = 3.50 - m
+\]
+
+Finally, we can observe that the amount of items sold per day can also be expressed in terms of the initial daily sales volume of $52$ items and the decrease in price $m$ (sales increase by $3$ when the price decreases by $\$0.50$).
+
+\[
+n = 52 + \frac{3}{0.50}m = 52 + 6m
+\]
+
+\subsection{Final model of the situation}
+
+Returning to the initial observation that $r = pn$ and the relations of $p$ and $n$ to the decrease in price of $m$, we can now express the daily revenue $r$ in terms of a single variable, $m$.
+
+\[
+r = (3.50 - m)(52 + 6m)
+\]
+
+I will take the liberty of expressing this equation in the proper factored form and the standard form.
+
+\[
+r = -6\left(m + \frac{26}{3}\right)(m - 3.50)
+\]
+
+\[
+r = -6m^2 - 31m + 182
+\]
+
+\newpage
+
+\section{Determining the maximum daily revenue}
+
+The relation between the decrease in price $m$ and the daily revenue $r$ is quadratic.
+It can also be observed that the quadratic relation will open downwards, because the coefficient in front of $m^2$ in the standard form of the relation is negative.
+
+The maximum of the plot of revenue and decrease in price will therefore be at the vertex of the graph: the maximum daily revenue will be the optimum value, which will be the $r$-value of the vertex (considering points expressed as $(m, r)$ being analogous to $(x, y)$).
+
+\subsection{Finding the optimum value}
+
+Because I have an expression for the quadratic relation in the factored form, it is a very simple process to find the optimum value and therefore the maximum price: all I have to do is take the average of the roots of the quadratic relation and evaluate the relation with the price decrease yielded from that average.
+
+The factored form of the quadratic relation is:
+
+\[
+r = -6\left(m + \frac{26}{3}\right)(m - 3.50)
+\]
+
+From this equation, it can be observed that the roots of the relation are $m = -\frac{26}{3}$ and $m = 3.50$.
+The average of these values is $m_a = -\frac{31}{12}$: setting $m$ to this value will yield the maximum daily revenue possible.
+
+I can therefore find the maximum daily revenue by simply evaluating the revenue relation with $m = -\frac{31}{12}$.
+
+\[
+r_{\text{max}} = -6\left(-\frac{31}{12}\right)^2 - 31\left(-\frac{31}{12}\right) + 182
+\]
+
+\[
+r_{\text{max}} = \$\frac{5329}{29} \approx \boxed{\$222.04}
+\]
+
+\newpage
+
+\section{Reaching exactly \$150 in daily revenue}
+
+\subsection{Setting up an equation}
+
+To set up this part of the problem, all we need to do is set $r = \$150$.
+I will use the standard form of the relation here.
+
+\[
+r = 150 = -6m^2 - 31m + 182
+\]
+
+In order to actually find values of $m$ that will satisfy this, I will first rearrange the equation just a little.
+
+\[
+150 = -6m^2 - 31m + 182 \longrightarrow -6m^2 - 31m + 32 = 0 \longrightarrow \boxed{6m^2 + 31m - 32 = 0}
+\]
+
+Our new relation to work with is now $6m^2 + 31m - 32 = 0$.
+
+\subsection{Determining appropriate values of $m$}
+
+The best way to find values of $m$ that satisfy the relation is to factor the equation: we can evaluate when each of the terms is equal to $0$, because at least one of the terms of the factored equation will have to be equal to $0$ in order to satisfy the relation of the whole relation being equal to $0$.
+
+Now, I actually don't think this equation can be factored normally with decomposition or just bashing factors at it.
+However, I do know that there are solutions to this relation - $6m^2 + 31m - 32 = 0$ opens upwards and does pass through points below the $m$-axis (as evidenced by an $r$-intercept of $-32$ (because it is in standard form) that is less than $0$), so I know there must be values of $m$ that will satisfy this relation.
+
+So, I will factor this equation using an extension the quadratic formula.
+Given an equation of form $ax^2 + bx + c$, I know that the equation can be expressed in a factored form according to the following, because of the quadratic formula and the way it yields the roots:
+
+\[
+ax^2 + bx + c = a \left( x - \frac{-b + \sqrt{b^2 - 4ac}}{2a} \right) \left( x - \frac{-b - \sqrt{b^2 - 4ac}}{2a} \right)
+\]
+
+When you equate this to $0$:
+
+\[
+a \left( x - \frac{-b + \sqrt{b^2 - 4ac}}{2a} \right) \left( x - \frac{-b - \sqrt{b^2 - 4ac}}{2a} \right) = 0
+\]
+
+Because that entire thing on the left is equal to $0$, at least one of $a$, $\left( x - \frac{-b + \sqrt{b^2 - 4ac}}{2a} \right)$ and $\left( x - \frac{-b - \sqrt{b^2 - 4ac}}{2a} \right)$ must be equal to $0$, because they are all being multiplied together.
+
+Looking at our equation, we can rewrite our equation in the same way, and come to the same conclusions about the values of the terms in that reqritten equation. $a$ of course cannot be $0$, because $a = 6$: therefore, at least one of $\left( m - \frac{-b + \sqrt{b^2 - 4ac}}{2a} \right)$ and $\left( m - \frac{-b - \sqrt{b^2 - 4ac}}{2a} \right)$ must be equal to $0$.
+
+\newpage\
+
+Therefore, we can simply rearrange a little to determine the values of $m$ that satisfy the equation.
+
+\begin{align*}
+m - \frac{-b + \sqrt{b^2 - 4ac}}{2a} &= 0\\
+m &= \frac{-b + \sqrt{b^2 - 4ac}}{2a}
+\end{align*}
+
+Additionally:
+
+\begin{align*}
+m - \frac{-b - \sqrt{b^2 - 4ac}}{2a} &= 0\\
+m &= \frac{-b - \sqrt{b^2 - 4ac}}{2a}
+\end{align*}
+
+From our expression $6m^2 + 31m - 32$, it can be seen that $a = 6$, $b = 31$ and $c=-32$. The decreases in price that would yield a daily revenue of exactly $\$150$ are yielded by those 2 equations above.
+Calling the desired decreases in price $m_1$ and $m_2$:
+
+\begin{align*}
+m_1 &= \frac{-b + \sqrt{b^2 - 4ac}}{2a}\\
+    &= \frac{-31 + \sqrt{31^2 - 4(6)(-32)}}{2(6)}\\
+    &= \frac{-31 + \sqrt{1729}}{12}\\
+    &\approx 0.882
+\end{align*}
+
+\begin{align*}
+m_1 &= \frac{-b - \sqrt{b^2 - 4ac}}{2a}\\
+    &= \frac{-31 - \sqrt{31^2 - 4(6)(-32)}}{2(6)}\\
+    &= \frac{-31 - \sqrt{1729}}{12}\\
+    &\approx -6.048
+\end{align*}
+
+Remembering that price $p = 3.5 - m$, the prices that will yield a daily revenue of exactly $\$150$ are $p_1 = 3.5 - m_1 = \boxed{\$2.62}$ and $p_2 = 3.5 - m_2 = \boxed{\$9.55}$
+
+\end{document}

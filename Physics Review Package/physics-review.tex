@@ -7,7 +7,11 @@
 \usepackage{tikz}
 \usepackage{multicol}
 \usepackage{circuitikz}
+\usepackage[colorlinks=false,bookmarksopen=true]{hyperref}
 \setlength{\parindent}{0in}
+
+\colorlet{color 0}{white}
+\colorlet{color 1}{black}
 
 \title{Physics review sheet}
 \author{Simon Wu }
@@ -155,6 +159,69 @@ Two lenses stuck together ($d \approx 0$) may be treated as a single lens with a
 
 \end{multicols}
 
+\newpage
+
+\subsection{Object and image characteristics for lenses and mirrors}
+
+\subsubsection{Converging lens}
+
+Given a converging lens that has a focal point $F$:
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c| } 
+ \hline
+ Object location & Image location & Size & Orientation & Type\\
+ \hline
+ \hline
+ Beyond $2F$ & Opposite, between $0$ and $2F$ & Smaller & Inverted & Real\\
+ \hline
+ At $2F$ & Opposite at exactly $2F$ & Same & Inverted & Real\\
+ \hline
+ Between $2F$ and $F$ & Opposite beyond $2F$ & Larger & Inverted & Real\\
+ \hline
+ At $F$ & None & None & None & None\\
+ \hline
+ In front of $F$ & Behind lens & Larger & Upright & Virtual\\
+ \hline
+\end{tabular}
+\end{center}
+
+\subsubsection{Diverging lens}
+
+The image of formed by a diverging lens will always be a \textbf{virtual image} that is \textbf{upright}, on the \textbf{same side as the object}, \textbf{smaller} than the object and \textbf{closer to the lens} than the object.
+As an object approaches the lens, the virtual image will approach the lens as well, and the virtual image will grow in size.
+
+\subsubsection{Converging (concave) mirror}
+
+Given a concave mirror with a center of curvature $C$ and a focal point $F$ exactly between the mirror and $C$:
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c| } 
+ \hline
+ Object location & Image location & Size & Orientation & Type\\
+ \hline
+ \hline
+ Beyond $C$ & Between object and mirror & Smaller & Inverted & Real\\
+ \hline
+ At $C$ & Exactly at $C$ & Same & Inverted & Real\\
+ \hline
+ Between $C$ and $F$ & Same side beyond $C$ & Larger & Inverted & Real\\
+ \hline
+ At $F$ & None & None & None & None\\
+ \hline
+ In front of $F$ & Behind mirror & Larger & Upright & Virtual\\
+ \hline
+\end{tabular}
+\end{center}
+
+\subsubsection{Diverging (Convex) mirror} 
+
+The image formed by a diverging mirror will always be located \textbf{behind} the convex mirror, a \textbf{virtual} image, \textbf{upright} and \textbf{smaller} than the object.
+
+As an object approaches the mirror, the virtual image behind the mirror will approach the mirror as well, and the virtual immage will grow in size.
+
+\newpage
+
 \subsection{Magnification}
 
 Linear magnification is based on the object and image distances $p$ and $q$:
@@ -292,9 +359,130 @@ y_m = \frac{m\lambda L}{W}
 
 Notice that the pattern is very similar to the double-slit interference pattern, but reversed between the dark and bright fringes.
 
+\section{Mirror equation}
+
+Focal length $f_m$ of a mirror is half of the radius of curvature, and is negative for a convex mirror.
+Object distance and image distance are related to the focal length of the mirror:
+
+\[
+\boxed{
+\frac{1}{f_m} = \frac{1}{d_o} + \frac{1}{d_i}
+}
+\]
+
 \newpage
 
 \subsection{Thin-film interference}
+
+\begin{center}
+
+\begin{tikzpicture}
+
+\filldraw[color=black, fill=black!5, ultra thick] (0,0) rectangle (6,2);
+
+\draw[dashed] (2, 4) -- (2, 0);
+
+\node[anchor=east] at (2, 3) {$\theta_1$};
+\node[anchor=west] at (2, 1) {$\theta_2$};
+
+\draw[red, very thick, ->] (0, 4) -- (2, 2) -- (3, 0) -- (4, 2) -- (6, 4);
+\draw[blue, very thick, ->] (0, 4) -- (2, 2) -- (4, 4);
+
+\node[anchor=south west] at (0, 2) {$n_1$};
+
+\node[anchor=south west] at (0, 0) {$n_2$};
+
+\node[anchor=north west] at (0, 0) {$n_3$};
+
+\draw[thick, <->] (5, 0) -- (5, 2);
+
+\node[anchor=west] at (5, 1) {$d$};
+
+\end{tikzpicture}
+
+\end{center}
+
+\subsubsection{Path length difference}
+
+The path length difference $\Gamma$, given the angle of refraction $\theta_2$, index of refraction $n_2$ and thickness $d$:
+
+\[
+\boxed{
+\Gamma = 2dn_2 \cos(\theta_2)
+}
+\]
+
+\subsubsection{Reflections}
+
+A reflected ray going from a fast medium to a slow medium (from lower $n$ to higher $n$) has a phase shift of $180^{\circ}$ or $\pi$ when reflected.
+
+However, a reflected ray at a boundary going between a slow medium and a fast medium (from higher $n$ to lower $n$) doesn't have a phase shift.
+
+\subsubsection{Constructive and destructive interference}
+
+Consider the phase shifts when calculating the constructive and destructive interference areas.
+When there is a phase shift of $\pi$, for example, you need to shift everything by $\frac{1}{2}$ to account for the phase shift.
+
+For example, considering a soap bubble, $n_1 = n_3 = n_{\text{air}} = 1$, and $n_2 = n_{\text{soap}} > 1$, so there will be a phase shift at the uppder boundary relection only.
+
+Therefore, constructive interference occurs when $\Gamma$ is a half-number multiple:
+
+\[
+\boxed{
+2dn_{\text{soap}}\cos(\theta_2) = \left( m - \frac{1}{2} \right)\lambda
+}
+\]
+
+Destructive interference will occur when $\Gamma$ is a whole-number multiple of the wavelength with this phase shift.
+
+\[
+\boxed{
+2dn_{\text{soap}}\cos(\theta_2) = m\lambda
+}
+\]
+
+\newpage
+
+\subsection{Colour mixing}
+
+\subsubsection{Additive colour mixing}
+
+\begin{multicols}{2}
+
+Additive colour mixing can be conceptualized as overlapping spotlights of different colours in a dark room.
+It is adding light energy in different ranges of the visible spectrum.
+The primary colours in additive colour mixing theory are red, green and blue.
+Do note that this is \emph{not} a representation of the behaviour of mixing pigments or paints.
+
+The center of the diagram represents achromatism: there is no colour there, and it could be white, black or an achromatic grey.
+
+\columnbreak
+
+\begin{center}
+\includegraphics[width=3.5in]{additive_colour_mixing}
+\end{center}
+
+
+
+\end{multicols}
+
+\subsubsection{Subtractive colour mixing}
+
+\begin{multicols}{2}
+
+Subtractive colour mixing reflects the behaviours of pigments, dyes and paints, rather than coloured lights.
+Paints and dyes and the like absorb specific parts of the spectrum and reflect the others, rather than add parts of the spectrum.
+
+The primary filters generally used to conceptualize subtractive colour mixing are generally cyan, magenta and yellow.
+The primary additive colours can be obtained from combining two subtractive filters.
+
+\includegraphics[width=3in]{subtractive_colour_mixing}
+
+\columnbreak
+
+\includegraphics[width=3.5in]{subtractive_filters}
+
+\end{multicols}
 
 \newpage
 
@@ -539,7 +727,166 @@ Once again, we can differentiate to find the current through the circuit, which 
 The time constant $\tau$ is the same as when the capacitor is being discharged.
 Initial current $I_0$ is given by $Q_{\text{tot}}/\tau = V/R$, which makes sense.
 
+%\newpage
+
 \subsection{Inductors}
+
+\subsubsection{Inductance of a circuit}
+
+Considering a device with inductance $L$ that is related to the number of coils $N$, magnetic flux $\phi_B$, time $t$ and current $I$:
+
+\[
+\boxed{
+L = N\frac{\Delta \phi_B}{\Delta I} = \frac{N\phi_B}{I}
+}
+\]
+
+The unit of inductance is the Henry (H).
+
+\[
+\boxed{
+1 \text{H} = 1\text{V} \cdot \text{s}/\text{A}
+}
+\]
+
+\subsubsection{Inductance of a coil}
+
+Considering the above euqation, as well as known equations for solenoid magnetic flux, the inductance of a solenoid can be determined.
+With a solenoid with length $l >> \text{radius}$, $N$ turns, volume $V$ and with current $I$ going through it, with $n = N/l$:
+
+\[
+\boxed{
+L = \mu_0 n^2 V - \frac{\mu_0 N^2 A}{l}
+}
+\]
+
+\subsection{RL circuits}
+
+\begin{center}
+\begin{circuitikz} \draw
+(0,0) to[ american resistor, l=$R$ ] (2,0) to[ cute inductor, l=$L$] (2,-1.5) to (0, -1.5) to[battery1, l = $\varepsilon$ ] (0,0); 
+\end{circuitikz}
+\end{center}
+
+When a circuit has a large inductor in it, back-emf from the inductor opposes the rate of change of current.
+This is because current doesn't instantaneously reach its maximum value, even when only batteries and resistors are involved - that's why back-emf exists!
+
+The back emf across the inductor coil:
+
+\[
+\boxed{
+\varepsilon_L = -L\frac{\Delta I}{\Delta t}
+}
+\]
+
+Back-emf falls off over time because the rate of increase of the current decreases as it approaches the maximum current.
+The time constant of the RL circuit, given resistance $R$ and inductance $L$:
+
+\[
+\boxed{
+\tau = \frac{L}{R}
+}
+\]
+
+The current in an RL circuit over time, with time constant $\tau$:
+
+\[
+\boxed{
+I = \frac{\varepsilon}{R}\left( 1 - e^{-t/\tau} \right)
+}
+\]
+
+\subsubsection{Energy stored by an inductor}
+
+Energy stored by an inductor is dependent on the current flowing through the circuit at that time.
+Given an inductor of inductance $L$ and current flowing through the circuit of $I$:
+
+\[
+\boxed{
+PE_L = \frac{1}{2}LI^2
+}
+\]
+
+\newpage
+
+\subsection{RLC circuits}
+
+\begin{center}
+\begin{circuitikz} \draw
+(0,0) to[ american resistor, l=$R$ ] (2,0) to[ cute inductor, l=$L$] (4,0) to[ capacitor, l = $C$ ] (6, 0) to (6,-2) to[vsourcesin] (0, -2) to (0, 0); 
+\end{circuitikz}
+\end{center}
+
+In an AC circuit, the current in the circuit is the same at all points at any instant, and varies with time:
+
+\[
+\boxed{
+i = I_{\text{max}} \sin(2\pi ft)
+}
+\]
+
+The voltage across each of the circuit elements isn't always in phase with the current, though. Instantaneous voltage $\Delta v_r$ across the resistor is in phase with the instantaneous current, but $\Delta v_L$ leads the current by $90$ degrees, and the instantaneous voltage $\Delta v_C$ lags the current by $90$ degrees.
+Phase angle $\phi$ of the circuit elements in total, in relation to $\Delta V_{\text{max}}$ can be conceptualized with phasor diagrams:
+
+\begin{center}
+\begin{tikzpicture}
+\draw[thick, -latex] (0,0) -- (3,2);
+\draw[thick, -latex] (0,0) -- (3,0);
+\draw[thick, -latex] (3,0) -- (3,2);
+
+\node[anchor=north] at (1.5,0) {$\Delta V_R$};
+\node[anchor=south east] at (1.5,1) {$\Delta V_{\text{max}}$};
+\node[anchor=west] at (3,1) {$\Delta V_L - \Delta V_C$};
+
+\node[anchor=west] at (0.5,0.25) {$\phi$};
+
+\draw[thick, -latex] (5,0) -- (8,2);
+\draw[thick, -latex] (5,0) -- (8,0);
+\draw[thick, -latex] (8,0) -- (8,2);
+
+\node[anchor=north] at (6.5,0) {$R$};
+\node[anchor=south east] at (6.5,1) {$Z$};
+\node[anchor=west] at (8,1) {$X_L - X_C$};
+
+\node[anchor=west] at (0.5,0.25) {$\phi$};
+\end{tikzpicture}
+\end{center}
+
+\subsubsection{Phase angle}
+
+The total voltage across the circuit, taking into account the phases of the voltages using the phasor diagram:
+
+\[
+\boxed{
+\Delta V_{\text{max}} = \sqrt{\Delta V_R^2 + (\Delta V_L - \Delta V_C)^2}
+}
+\]
+
+Phase angle $\phi$ has this relation:
+
+\[
+\boxed{
+\tan(\phi) = \frac{\Delta V_L - \Delta V_C}{\Delta V_R}
+}
+\]
+
+\subsubsection{Impedance}
+
+Impedance $Z$ of the RLC circuit can also be found from a phasor diagram:
+
+\[
+\boxed{
+Z \equiv \sqrt{R^2 + (X_L - X_C)^2}
+}
+\]
+
+The statement of Ohm's law for this circuit can be written in terms of impedance:
+
+\[
+\boxed{
+\Delta V_{\text{max}} = I_{\text{max}}\sqrt{R^2 + (X_L - X_C)^2} = I_{\text{max}}Z
+}
+\]
 
 \newpage
 
@@ -903,11 +1250,155 @@ t' = \gamma t
 
 \subsection{de Broglie wavelength}
 
+The de Broglie wavelength $\lambda$ of a particle or photon, given its momentum $p$:
+
+\[
+\boxed{
+\lambda = \frac{h}{p}
+}
+\]
+
+$h$ is the Planck constant, about $6.62\times 10^{-34} \text{m}^2\text{kg}/\text{s}$.
+
+\subsubsection{Photons}
+
+With photons of light of frequency $\nu$, the energy is given by:
+
+\[
+E = h\nu
+\]
+
+The momentum is given from inserting this into $E = pc$:
+
+\[
+p = \frac{h\nu}{c}
+\]
+
+Wavelength $\lambda$ of the photon can therefore be written in terms of its frequency:
+
+\[
+\boxed{
+\lambda = \frac{hc}{E}
+}
+\]
+
+\subsubsection{Particles}
+
+With particles, the wavelength lambda is given in terms of relativistic momentum:
+
+\[
+\boxed{
+\lambda = \frac{h}{mv} = \frac{h}{\gamma m_0 v} = \frac{h}{m_0 c \sinh(\zeta_0)} 
+}
+\]
+
+$\lambda$ will only be significant enough to have the particle display non-negligible wave properties if the wavelength is comparable to the size of the particle: this means that the object usually has to be really small, like an electron.
+
+\newpage
+
 \subsection{Photoelectric effect}
+
+The photoelectric effect is essentially proof that light can behave like a stream of particles instead of a wave.
+When light is shined on a surface, no electrons are emitted from the surface if the light is below a certain frequency.\
+the maximum kinetic energy of the photoelectrons emitted is also independent of light intensity: it increases with increased frequency.
+
+This means that photons are seentially knocking photoelectrons off of the surface as if they are particles colliding: raising intensity without raising frequency means that the photons are colliding in the same way, and that there are just more photons colliding and emitting for photoelectrons.
+
+\subsubsection{Maximum kinetic energy of photoelectrons}
+
+The maximum kinetic energy of a liberated photoelectron, given the frequency of light $f$ and the work function $\phi$ of the metal (energy required to free the electron):
+
+\[
+\boxed{
+KE_{\text{max}} = hf - \phi
+}
+\]
+
+\subsubsection{Cutoff frequency}
+
+The energy of the photon that strikes the metal must be larger than the work function, so that it is able to liberate a photoelectron.
+
+\[
+KE_{\text{max}} = hf_c - \phi = 0
+\]
+
+\[
+\boxed{
+f_c = \frac{\phi}{h}
+}
+\]
+
+The frequency of the light photons striking the metal must be over the cutoff frequency $f_c$ to free a photoelectron.
+
+\subsubsection{Cutoff wavelength}
+
+Given that $\lambda = \frac{c}{f}$:
+
+\[
+\boxed{
+\lambda_c = \frac{hc}{\phi}
+}
+\]
+
+If the wavelength of the photons hitting the metal surface is over cutoff wavelength $\lambda_c$, no photoelectron is emitted.
+
+\newpage
 
 \subsection{Electron states}
 
+\subsubsection{Rydberg energy}
+
+The Rydberg unit of energy is referred to as the Ry. It is about $-13.6 e\text{V}$.
+
+\[
+\boxed{
+1 \text{ Ry} = -\frac{m_e e^4}{32\pi^2\epsilon_0^2\hbar^2} = -\frac{m_e e^4}{8h^2 \epsilon_0^2} \approx -13.6 e\text{V}
+}
+\]
+
+\subsubsection{Energy of a hydrogen atom}
+
+The ground energy of a hydrogen atom is $E_0 = 1 \text{ Ry}$. The energy of the hydrogen atom when the electron is at some energy state $n$:
+
+\[
+\boxed{
+E_n = -\frac{E_0}{n^2}
+}
+\]
+
+The emitted energy (in photons) when an electron goes from a higher energy state $m$ to a lower one $n$:
+
+\[
+\boxed{
+E_{\text{photon}} = E_m - E_n = -E_0\left( \frac{1}{m^2} - \frac{1}{n^2} \right)
+}
+\]
+
+With atoms other than hydrogen, the energy when going from a higher state to a lower one, given the atomic number $Z$:
+
+\[
+\boxed{
+E_{\text{photon}} = \frac{Z^2 m_e e^4}{8 h^2 \epsilon_0^2}\left( \frac{1}{m^2} - \frac{1}{n^2} \right) = -13.6Z^2\left( \frac{1}{m^2} - \frac{1}{n^2} \right) e\text{V}
+}
+\]
+
 \subsubsection{Rydberg constant}
+
+The Rydberg constant $R$ is given by:
+
+\[
+R = \frac{E_0}{hc} = \frac{m_e e^4}{8h^3 c \epsilon_0^2}
+\]
+
+\subsubsection{Wavelength of emitted photon}
+
+The inverse wavelength of the emitted photon when an atom goes from a higher state $m$ to a lower state $n$:
+
+\[
+\boxed{
+\frac{1}{\lambda} = RZ^2\left( \frac{1}{m^2} - \frac{1}{n^2} \right)
+}
+\]
 
 \newpage
 
@@ -1268,6 +1759,18 @@ For an ideal gas undergoing an adiabatic process (adiabatic expansion, etc.), it
 PV^\gamma = \text{constant}
 }
 \]
+
+\subsection{Change in heat}
+
+Given heat capacity $c$, mass $m$ and change in temperature $\Delta T$:
+
+\[
+\boxed{
+\Delta Q = mc\Delta T
+}
+\]
+
+Note that $c_v$ and $c_p$ are in heat capacity per mol, not mass.
 
 \newpage
 
@@ -1636,7 +2139,27 @@ f' = f \frac{v \pm v_o}{v \mp v_s}
 $v_o$ is positive for motion towards the sound source and negative for motion away from the sound source.
 $v_s$ is negative for motion towards the observer and positive for motion away from the observer.
 
+\subsection{Changing mediums}
+
+\subsubsection{Fast to slow medium}
+
+If a wave moves from a fast to a slow medium, there will be an \emph{inverted} reflected wave and an \emph{upright} transmitted wave.
+
+\subsubsection{Slow to fast medium}
+
+If a wave moves from a slow to a fast medium, there will be an \emph{upright} reflected and an \emph{upright} transmitted wave.
+
 \newpage
+
+\subsection{Boundary behaviour at ends}
+
+\subsubsection{Fixed end}
+
+A wave travelling along a string and hitting a fixed end will be reflected back and \emph{inverted}.
+
+\subsubsection{Free end}
+
+A wave travelling along a string and hitting a free end will be reflected back and \emph{upright}.
 
 \section{Fluids}
 
@@ -1680,6 +2203,8 @@ P + \rho g h + \frac{1}{2}\rho v^2 = \text{constant}
 
 Bernoulli's equation represents the conservation of energy: the first term represents potential energy per unit mass of the liquid due to pressure, the second term represents potential energy due to gravity (e.g. due to changes in height of a tube), and the third term represents kinetic energy per unit mass of the liquid.
 
+\newpage
+
 \subsection{Torricelli's theorem}
 
 If there is a tank filled with liquid and an orifice located on the side of the tank at a depth $h$ below the surface of the liquid, the velocity of emergence of the liquid (also known as the velocity of efflux) is:
@@ -1689,8 +2214,6 @@ If there is a tank filled with liquid and an orifice located on the side of the 
 v = \sqrt{2gh}
 }
 \]
-
-\newpage
 
 \subsection{Reynold's number and stability}
 
@@ -1736,5 +2259,41 @@ When a sphere of radius $r$ and density $\rho_0$ is dropped into an extensive li
 v_T = \frac{2gr^2}{9\eta}(\rho_0 - \rho)
 }
 \]
+
+\section{Astronomy}
+
+\subsection{Moon phases}
+
+\begin{center}
+
+\begin{tikzpicture}
+\filldraw [fill=color 0] circle [radius=1.5];
+\filldraw [fill=color 1] (90:1.5) arc (90:270:1.5) -- cycle;  
+\draw (0, 0) circle [radius=4];
+\foreach \phase [count=\i,evaluate={\a=\i*45-45; \j=int(mod(\i-1, 4));
+  \ca=int(\i>4); \cb=int(\i<5);}]
+    in {New moon, Waxing crescent, First quarter, Waxing gibbous,
+        Full moon, Waning gibbous, Last quarter, Waning crescent}{
+  \filldraw [fill=color 0] (\a:4) circle [radius=0.5];
+  \filldraw [fill=color 1] (\a:4) ++(90:0.5) arc (90:270:0.5) -- cycle;
+  \begin{scope}[shift=(\a:6), scale=0.75]
+    \fill [gray!50] (-1.125, -1.125) rectangle (1.125, 1.125);
+    \fill [fill=color \cb] circle [radius=1];
+    \ifcase\j
+    \or
+      \fill [color \ca] (90:1) arc (45:-45:sqrt 2) arc (-90:90:1) -- cycle;
+    \or
+      \fill [color \ca] (90:1) arc (90:-90:1) -- cycle;
+    \or
+      \fill [color \ca] (90:1) arc (135:225:sqrt 2) arc (-90:90:1) -- cycle;
+    \fi
+    \node [anchor=(\i>4)*180-90, align=center, text width=5em]
+      at ({(\i>4)*180+90}:1.125) {\phase};
+  \end{scope}
+  \node [circle, draw] at (\a:3) {\i};
+}
+\end{tikzpicture}
+
+\end{center}
 
 \end{document}
