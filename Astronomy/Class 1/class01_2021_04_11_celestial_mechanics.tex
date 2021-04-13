@@ -1,0 +1,169 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes, amsmath, amssymb, graphicx, tikz, geometry, multicol}
+\usepackage{wrapfig}
+\geometry{margin=1in}
+
+\setlength{\parindent}{0in}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+    \Huge{Astronomy class 1: Elliptic orbits and celestial mechanics}
+    
+    \vspace{1in}
+    
+    \Large{Simon Wu}
+    
+    \Large{April 11, 2021}
+    
+    \vspace{1in}
+    
+    \Large{Olympiads School - Mr. Horbatsch}
+
+    
+\end{center}
+
+\tableofcontents
+
+\end{titlepage}
+
+\section{Course overview}
+
+\subsection{Textbook section}
+
+The textbook that we are using in this course is \emph{Introduction to Astronomy} by \emph{Dr. Karina Kjaer}.
+This class was based on material from \emph{Chapter 1} of the textbook.
+
+\subsection{Fundamental theories of astronomy}
+
+Astronomy is understanding things in our night sky.
+To this end, we use two major theories: \emph{gravity} and \emph{quantum mechanics}.
+
+\subsubsection{Gravity}
+
+\begin{wrapfigure}{r}{0.2\textwidth}
+    \centering
+    \includegraphics[width=0.2\textwidth]{binary_pulsar}
+    \label{fig:binarypulsar}
+    \caption{Binary pulsar diagram.}
+\end{wrapfigure}
+
+Gravity is used to explain how objects in the night sky move.
+In general, there is \emph{Newtonian gravity} (from Isaac Newton in the 1600's), and \emph{general relativity} (from Albert Einstein in the early 1900's).
+
+Newtonian gravity is good for most things in the night sky.
+However, not everything is that simple: some phenomena require the use of general relativity to accurately describe and explain.
+General relativity is generally required for:
+	
+\begin{itemize}
+	\item Black holes
+	\item Cosmology (understanding the evolution of the entire universe)
+	\item Binary pulsars (Figure \ref{fig:binarypulsar})
+	\begin{itemize}
+		\item Their orbits are shrinking ellipses and create spirals
+		\item The effect requires general relativity to understand
+		\begin{itemize}
+			\item They output \emph{gravitational radiation} and lose energy in their orbits
+		\end{itemize}
+	\end{itemize}
+	\item The orbit of Mercury (when high precision is needed)
+	\begin{itemize}
+		\item This is because Mercury is the planet closest to the Sun
+		\item If you only need decent accuracy ($\sim 1\%$) then Newtonian gravity is sufficient
+	\end{itemize}
+\end{itemize}
+
+
+\subsubsection{Quantum mechanics}
+
+Quantum mechanics is mostly used to explain how stars shine (e.g. how the Sun shines).
+It can predict the properties of emitted light from various atoms, and is also required to explain things like the stability of neutron stars and white dwarfs.
+
+\newpage
+
+\subsection{Length scales}
+
+\begin{itemize}
+	\item $10^{-15}$ meters: size of individual protons/neutrons.
+	\item $10^{-10}$ meters: size of individual atoms.
+	\item $1$ meter: normal stuff.
+	\item $1$ AU, $10^{11}$ meters: the astronomical unit (AU), which is the Earth-Sun distance.
+	\item $1$ pc, $1$ ly, $10^{16}$ meters: a light year (ly), parsec (pc, or parallax arc-second). About the distance to the nearest star, $\alpha$-Centauri
+	\item $1$ kpc, $10^{19}$ meters: a kiloparsec. Magnitude of the size of galaxies e.g. Andromeda.
+	\item $1$ Mpc, $10^{22}$ meters: a megaparsec. About the size of universe clusters.
+	\item $1$ Gpc, $10^{25}$ meters: a gigaparsec. About the size of the observable universe. 
+\end{itemize}
+
+\section{Circular orbits}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{circular_orbit}
+    \label{fig:circularorbit}
+    \caption{Circular orbit diagram.}
+\end{wrapfigure}
+
+Circular orbits can be parametrized as follows:
+
+\[
+x(t) = r\cos(\omega t)
+\]
+
+\[
+y(t) = r\sin(\omega t)
+\]
+
+Of course, $v = r\omega$.
+If the mass $M$ is considered to be much larger than $m$, the following equations can be derived for the orbital velocity:
+
+\[
+F_{net} = m\frac{v^2}{r} = \frac{GmM}{r^2}
+\]
+
+\[
+v^2 = \frac{GM}{r}
+\]
+
+\newpage
+
+\section{Elliptic orbits}
+
+\subsection{Ellipse equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{ellipse_equation}
+    \label{fig:ellipseequation}
+    \caption{Ellipse graph.}
+\end{figure}
+
+An ellipse can be defined with the following equation:
+
+\[
+\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
+\]
+
+Take $a,b>0$ and $a \geq b$.
+$a$ is called the \emph{semi-major axis}, and $b$ is called the \emph{semi-minor axis}.
+Notice that if $a = b$, it simplifies to a circle ($x^2 + y^2 = a^2$), of radius $a$.
+
+\subsubsection{Eccentricity}
+
+The eccentricity of an ellipse is represented with $\epsilon$.
+
+\[
+\epsilon = \sqrt{1 - b^2 / a^2} \in \mathbb{R}
+\]
+
+$b^2 / a^2 \leq 1$, so $0 \leq \epsilon \leq 1$.
+Notice:
+
+\begin{itemize}
+	\item When $\epsilon = 0$, $b/a = 1$, and the ellipse reduces to a circle.
+	\item When $\epsilon = 1$, $b/a = 0 \longrightarrow \lim_{b \to 0}$, and the ellipse collapses to a straight line segment.
+\end{itemize}
+
+\end{document}
