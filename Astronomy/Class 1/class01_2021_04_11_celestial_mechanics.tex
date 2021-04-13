@@ -166,4 +166,149 @@ Notice:
 	\item When $\epsilon = 1$, $b/a = 0 \longrightarrow \lim_{b \to 0}$, and the ellipse collapses to a straight line segment.
 \end{itemize}
 
+\newpage
+
+\subsection{Naive parametrization of elliptic orbit}
+
+Knowing the parametrization of an ellipse, there is an immediate parametrization that you may try to represent an elliptical orbit.
+
+\[
+x(t) = a\cos(\omega t)\text{, }y(t) = b\sin(\omega t) \longrightarrow \frac{[x(t)]^2}{a^2} + \frac{[y(t)]^2}{b^2} = 1
+\]
+
+However, this while this parametrization \emph{does} represent a particle moving on an elliptic path, it does \emph{not} represent
+the motion of an object orbiting another.
+This is because the \emph{speed} of the orbiting object is not properly represented.
+
+\subsubsection{Speed of object in this parametrization}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{elliptic_orbit}
+    \label{fig:ellipticorbit}
+    \caption{Elliptic orbit diagram.}
+\end{figure}
+
+Knowing that the orbital period $T$ is $2\pi / \omega$, let $t_A = 0$ and $t_B = \pi / \omega$ (halfway through the orbit).
+
+\[
+\dot{x}(t) = -a\omega \sin(\omega t)\text{, }\dot{y}(t) = b\omega \cos(\omega t)
+\]
+
+\[
+\left| \vec{v}(t) \right| = \sqrt{a^2 \omega^2 \sin^2(\omega t) + b^2 \omega^2 \cos^2(\omega t)}
+\]
+
+\[
+\left| \vec{v}(t_A) \right| = \left| \vec{v}(0) \right| = b\omega \text{, } \left| \vec{v}(t_B) \right| = \left| \vec{v}(\pi / \omega) \right| = b\omega\text{, } \left| \vec{v}(t_A) \right| =\left| \vec{v}(t_B) \right| 
+\]
+
+As can be observed in the equations, with this parametrization, the speed of the orbiting object at $A$ is the same as its speed at $B$: however, in real life, speeds at those locations will vary a lot!
+In actuality, there really is no simple equation or expression for $x(t)$, $y(t)$, or even $r(t)$ and $\theta (t)$!
+
+\newpage
+
+\subsection{Properties of an elliptic orbit}
+
+Given a mass $m$ orbiting a mass $M$, with mass $M >> m$, $M$ can be modelled as being fixed to the original of an inertial reference frame (essentially modelled as being at rest).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{polar_coord}
+    \label{fig:polarcoord}
+    \caption{Diagram of situation representing elliptic orbit.}
+\end{figure}
+
+To understand the motion of the mass $m$ in orbit around $M$, we need to use \emph{conservation of energy} and \emph{conservation of angular momentum}.
+
+Conservation of energy:
+
+\[
+E = \frac{1}{2}m\left| \vec{v} \right|^2 - \frac{GmM}{r}
+\]
+
+\[
+E = \frac{1}{2}m\left( \dot{r}^2 + r^2 \dot{\theta}^2 \right) - \frac{GmM}{r} = \text{constant}
+\]
+
+Angular momentum is conserved, because gravitational force only acts radially:
+
+\[
+L = mr^2\dot{\theta} \longrightarrow \dot{\theta} = \frac{L}{mr^2}
+\]
+
+Now, we can insert this expression for $\dot{theta}$ into the conservation of energy.
+
+\[
+E = \frac{1}{2}m\dot{r}^2 + \frac{1}{2}mr^2\left( \frac{L}{mr^2} \right)^2 - \frac{GmM}{r}
+\]
+
+\[
+E = \frac{1}{2}m \dot{r}^2 + \frac{L^2}{2mr^2} - \frac{GmM}{r}
+\]
+
+\newpage
+
+\subsubsection{Effective potential}
+
+That last term of the expression for conservation fo energy can be called the \emph{effective potential}.
+
+\[
+E = \frac{1}{2}m \dot{r}^2 + \boxed{\frac{L^2}{2mr^2} - \frac{GmM}{r}}
+\]
+
+\[
+V_{\text{eff}}(r) = \frac{L^2}{2mr^2} - \frac{GmM}{r} = \text{effective potential}
+\]
+
+The conservation of energy equation can now be expressed in terms of that effective potential.
+
+\[
+E = \frac{1}{2}m\dot{r}^2 + V_{\text{eff}}(r)
+\]
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{effective_potential}
+  \caption{Effective potential graph.}
+  \label{fig:effectivepotential}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{elliptic_diagram}
+  \caption{Diagram of elliptic orbit with large mass $M$ at origin.}
+  \label{fig:ellipticdiagram}
+\end{minipage}
+\end{figure}
+
+When an orbiting mass has an energy $E > 0$, it will orbit in an elliptical orbit.
+$r_{\text{min}}$ and $r_{\text{max}}$ are essentially solutions to $E = V_{\text{eff}}(r)$, and therefore where $\dot{r} = 0$.
+
+\[
+E = \frac{L^2}{2mr^2} - \frac{GmM}{r}
+\]
+
+\[
+\text{Solutions: } r_{\text{min}} = a(1 - \epsilon)\text{, } r_{\text{max}} = a(1 + \epsilon)
+\]
+
+For negative $E$:
+
+\[
+\epsilon = \sqrt{1 + \frac{2EL^2}{m(GmM)^2}}\text{ is eccentricity}
+\]
+
+\[
+a = -\frac{GmM}{2E}\text{ is the semi-major axis}
+\]
+
+\newpage
+
+\subsubsection{Positive energy}
+
+Once $E>0$, $\epsilon$ is still derfined in the same way, but there will only be a single solution to the equation because the orbit is unbound.
+Because $\epsilon > 1$ when $E>0$, we can also observe that the unbound orbit will be \emph{hyperbolic}.
+
 \end{document}
