@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 APR 2021 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 APR 2021 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -686,35 +686,46 @@ File: elliptic_diagram.png Graphic file (type png)
 <use elliptic_diagram.png>
 Package pdftex.def Info: elliptic_diagram.png  used on input line 280.
 (pdftex.def)             Requested size: 187.90271pt x 187.89635pt.
- [6 <./effective_potential.png> <./elliptic_diagram.png>] [7] (./class01_2021_0
-4_11_celestial_mechanics.aux) ) 
+ [6 <./effective_potential.png> <./elliptic_diagram.png>]
+<hyperbolic_orbit.png, id=55, 1003.75pt x 1003.75pt>
+File: hyperbolic_orbit.png Graphic file (type png)
+<use hyperbolic_orbit.png>
+Package pdftex.def Info: hyperbolic_orbit.png  used on input line 316.
+(pdftex.def)             Requested size: 164.41711pt x 164.41696pt.
+<location_labels.png, id=56, 1003.75pt x 1003.75pt>
+File: location_labels.png Graphic file (type png)
+<use location_labels.png>
+Package pdftex.def Info: location_labels.png  used on input line 325.
+(pdftex.def)             Requested size: 164.41711pt x 164.41696pt.
+ [7 <./hyperbolic_orbit.png> <./location_labels.png>]
+(./class01_2021_04_11_celestial_mechanics.aux) ) 
 Here is how much of TeX's memory you used:
- 14189 strings out of 480608
- 273767 string characters out of 5903631
- 508810 words of memory out of 5000000
- 29828 multiletter control sequences out of 15000+600000
+ 14205 strings out of 480608
+ 274119 string characters out of 5903631
+ 507832 words of memory out of 5000000
+ 29844 multiletter control sequences out of 15000+600000
  539484 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,60p,847b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dv
-ips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/s
-ymbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1200.pfb>
-Output written on class01_2021_04_11_celestial_mechanics.pdf (8 pages, 350425 b
+{/usr/local/texlive/2020/texmf-
+dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1200.pfb>
+Output written on class01_2021_04_11_celestial_mechanics.pdf (8 pages, 403451 b
 ytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

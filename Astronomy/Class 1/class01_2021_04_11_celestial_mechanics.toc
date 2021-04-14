@@ -13,3 +13,4 @@
 \contentsline {subsection}{\numberline {3.3}Properties of an elliptic orbit}{5}%
 \contentsline {subsubsection}{\numberline {3.3.1}Effective potential}{6}%
 \contentsline {subsubsection}{\numberline {3.3.2}Positive energy}{7}%
+\contentsline {subsection}{\numberline {3.4}Location labels}{7}%
